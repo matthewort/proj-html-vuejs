@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: auto;
+  background-color: blue;
+  font-family: arial;
+}
+
+/* Human Capital Core Business Performance */
+.containerhcp {
+  height: 450px;
+  background-color: #e4eae6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#humancapital {
+  height: 50%;
+  width: 15%;
+  border-radius: 10px;
+  background-color: white;
+  margin-right: 30px;
+  align-items: center;
+  padding: 40px 40px;
+}
+
+#humancapital p {
+  padding: 5px;
+}
+
+#corebusiness {
+  height: 50%;
+  width: 15%;
+  border-radius: 10px;
+  background-color: white;
+  margin-right: 30px;
+  align-items: center;
+  padding: 40px 40px;
+}
+
+#corebusiness p {
+  padding: 5px;
+}
+
+#performance {
+  height: 50%;
+  width: 15%;
+  border-radius: 10px;
+  background-color: white;
+  margin-right: 30px;
+  align-items: center;
+  padding: 40px 40px;
+}
+
+#performance p {
+  padding: 5px;
+}
+/* FINE Human Capital Core Business Performance */
+
+/* The Company */
+.containercompany {
+  height: 600px;
+  background-color: brown;
+}
+
+.containercompanyleft {
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  float: left;
+}
+
+.containercompanyleft-blockup {
+  height: 40%;
+  width: 60%;
+  padding: 40px 40px;
+  background-color: orange;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.containercompanyleft-blockup p {
+  margin-top: 10px;
+  display: flex;
+}
+
+.containercompanyleft-blockdown {
+  height: 60%;
+  width: 60%;
+  background-color: yellow;
+  float: right;
+}
+
+
+.containercompanyright {
+  height: 100%;
+  width: 50%;
+  background-image: url("../img/about-5.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  float: left;
+}
