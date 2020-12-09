@@ -217,40 +217,71 @@ body {
   margin-right: 20px;
   margin-bottom: 20px;
   border: 1px solid black;
+  background-image: url("../img/project-1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
-/* .box2 {
-  height: 50%;
-  width: 20%;
-  background-color: red;
+.box2 {
+  height: 40%;
+  width: 30%;
+  background-color: orange;
   display: flex;
-  margin-right: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  background-image: url("../img/project-2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .box3 {
-  height: 50%;
-  width: 20%;
-  background-color: yellow;
+  height: 40%;
+  width: 30%;
+  background-color: orange;
   display: flex;
-  margin-right: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  background-image: url("../img/project-3.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .box4 {
-  height: 50%;
-  width: 20%;
-  background-color: red;
+  height: 40%;
+  width: 30%;
+  background-color: orange;
   display: flex;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  background-image: url("../img/project-4.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .box5 {
-  height: 50%;
-  width: 20%;
-  background-color: yellow;
+  height: 40%;
+  width: 30%;
+  background-color: orange;
   display: flex;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  background-image: url("../img/project-5.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .box6 {
-  height: 50%;
-  width: 20%;
+  height: 40%;
+  width: 30%;
   background-color: orange;
-  display: flex; */
+  display: flex;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  background-image: url("../img/project-6.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
