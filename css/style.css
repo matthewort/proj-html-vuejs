@@ -100,6 +100,60 @@ body {
   float: right;
 }
 
+.subcontainercompanyleft-blockdown {
+  height: 60%;
+  width: 33.33333333%;
+  background-color: brown;
+  padding: 40px 40px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.subcontainercompanyleft-blockdown p {
+  height: 60%;
+  width: 33.33333333%;
+  background-color: brown;
+  float: left;
+}
+
+.subcontainercompanyleft-blockdowncenter {
+  height: 60%;
+  width: 33.33333333%;
+  background-color: lightblue;
+  float: left;
+}
+
+.subcontainercompanyleft-blockdownright {
+  height: 60%;
+  width: 33.33333333%;
+  background-color: darkblue;
+  float: left;
+}
+
+.subcontainercompanyleft-buttonleft {
+  height: 10%;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.subcontainercompanyleft-buttonright {
+  height: 10%;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30px;
+  background-color: white;
+  border: 2px solid black;
+}
 
 .containercompanyright {
   height: 100%;
@@ -109,3 +163,94 @@ body {
   background-position: right;
   float: left;
 }
+/* FINE The Company */
+
+/* Actions & Projects */
+.actionscontainer {
+  height: 300px;
+  background-color: #121117;
+}
+
+.actionsup {
+  height: 70%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actionnav {
+  height: 30%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionnav ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.actionnav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.actionboxcontainer {
+  height: 900px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.box1 {
+  height: 40%;
+  width: 30%;
+  background-color: orange;
+  display: flex;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+/* .box2 {
+  height: 50%;
+  width: 20%;
+  background-color: red;
+  display: flex;
+  margin-right: 30px;
+}
+
+.box3 {
+  height: 50%;
+  width: 20%;
+  background-color: yellow;
+  display: flex;
+  margin-right: 30px;
+}
+
+.box4 {
+  height: 50%;
+  width: 20%;
+  background-color: red;
+  display: flex;
+}
+
+.box5 {
+  height: 50%;
+  width: 20%;
+  background-color: yellow;
+  display: flex;
+}
+
+.box6 {
+  height: 50%;
+  width: 20%;
+  background-color: orange;
+  display: flex; */
