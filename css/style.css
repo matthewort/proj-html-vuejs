@@ -55,13 +55,31 @@ body {
 /* FINE navbar sopra */
 
 /* navbar sotto */
-#bottomnavbar {
+#bottomnavbarcontainer {
   height: 860px;
-  background-color: brown;
+  display: flex;
+  justify-content: center;
 }
 
+#bottomnavbar {
+  height: 100%;
+  width: 60%;
+  border: 2px solid black;
+}
 
+.bottomnavleft {
+  height: 10%;
+  width: 20%;
+  border: 2px solid yellow;
+  float: left;
+}
 
+.bottomnavright {
+  height: 10%;
+  width: 80%;
+  border: 2px solid yellow;
+  float: left;
+}
 
 /* Human Capital Core Business Performance */
 .containerhcp {
