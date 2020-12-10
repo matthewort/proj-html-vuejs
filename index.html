@@ -9,8 +9,25 @@
   </head>
   <body>
     <div id="app">
-      <header :style="styleObject">
-        <h1>{{title}}</h1>
+      <header>
+        <nav id="navbar">
+
+          <div class="navleft">
+          <ul>
+            <li><i class="fas fa-clock"></i>{{hours}}</li>
+          </ul>
+          </div>
+
+          <div class="navright">
+          <ul v-for="item in info">
+            <li>{{item.message}}</li>
+          </ul>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          </div>
+
+        </nav>
       </header>
 
       <main>
@@ -94,15 +111,43 @@
         </div>
 
         <div class="actionboxcontainer">
-          <div class="box1"></div>
-          <div class="box2"></div>
-          <div class="box3"></div>
-          <div class="box4"></div>
-          <div class="box5"></div>
-          <div class="box6"></div>
+          <div class="box1">Academic professional program in social media</div>
+          <div class="box2">Academic professional program in social media</div>
+          <div class="box3">Academic professional program in social media</div>
+          <div class="box4">Academic professional program in social media</div>
+          <div class="box5">Academic professional program in social media</div>
+          <div class="box6">Academic professional program in social media</div>
         </div>
-
         <!-- FINE Actions & Projects -->
+
+        <!-- Process Management -->
+        <div class="processcontainer">
+          <div class="processblockup">
+            <p>HOW IT WORKS IN PRACTICE</p>
+            <p>Process Management</p>
+            <p>We work with innovative methodologies to ensure that the entire reformatting process is done from start to finish as planned.</p>
+          </div>
+          <div class="processsubcontainer">
+            <div class="processblockdown">
+
+            </div>
+            <div class="processblockdown">
+
+            </div>
+            <div class="processblockdown">
+
+            </div>
+            <div class="processblockdown">
+
+            </div>
+            <div class="processblockdown">
+
+            </div>
+
+          </div>
+
+
+        </div>
 
 
 

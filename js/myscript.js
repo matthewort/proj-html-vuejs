@@ -1,11 +1,11 @@
 var app = new Vue({
   el: '#app',
   data: {
-    title:'prova',
-    styleObject: {
-      backgroundColor: 'darkblue',
-      height: '100px'
-    }
+    hours: 'Open Hours: Mon - Sat - 9:00 - 18:00',
+    info: [
+      {message: '+1(305)1234-5678'},
+      {message: 'hello@example.com'}
+    ]
   },
   methods: {
     addfilm: function () {

@@ -7,9 +7,52 @@
 body {
   height: 100vh;
   width: auto;
-  background-color: blue;
+  background-color: grey;
   font-family: arial;
 }
+
+header {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar {
+  height: 100%;
+  width: 60%;
+}
+
+#navbar ul {
+  list-style: none;
+  display: inline;
+}
+
+#navbar li {
+  list-style: none;
+  display: inline;
+}
+
+.navleft {
+  height: 100%;
+  width: 50%;
+  float: left;
+  border: 2px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navright {
+  height: 100%;
+  width: 50%;
+  float: left;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
 
 /* Human Capital Core Business Performance */
 .containerhcp {
@@ -220,6 +263,14 @@ body {
   background-image: url("../img/project-1.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .box2 {
@@ -233,6 +284,13 @@ body {
   background-image: url("../img/project-2.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 25px;
 }
 
 .box3 {
@@ -246,6 +304,13 @@ body {
   background-image: url("../img/project-3.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 25px;
 }
 
 .box4 {
@@ -259,6 +324,13 @@ body {
   background-image: url("../img/project-4.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 25px;
 }
 
 .box5 {
@@ -272,6 +344,13 @@ body {
   background-image: url("../img/project-5.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 25px;
 }
 
 .box6 {
@@ -285,3 +364,45 @@ body {
   background-image: url("../img/project-6.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 25px;
+}
+  /* FINE Actions & Projects */
+
+  .processcontainer {
+    height: 700px;
+    background-image: url("../img/process_img1.jpg");
+  }
+
+  .processblockup {
+    height: 40%;
+    background-color: orange;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .processsubcontainer {
+    height: 60%;
+    background-color: brown;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  .processblockdown {
+    height: 50%;
+    width: 30%;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    background-color: darkblue;
+    border: 2px solid black;
+
+  }
