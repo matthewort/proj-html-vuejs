@@ -10,24 +10,34 @@
   <body>
     <div id="app">
       <header>
-        <nav id="navbar">
+        <!-- navbar sopra -->
+        <nav id="uppernavbar">
+          <div id="navbar">
+            <div class="navleft">
+            <ul>
+              <li><i :class="clock"></i>{{hours}}</li>
+            </ul>
+            </div>
 
-          <div class="navleft">
-          <ul>
-            <li><i class="fas fa-clock"></i>{{hours}}</li>
-          </ul>
+            <div class="navright">
+            <ul v-for="item in info">
+              <li>{{item.message}}</li>
+            </ul>
+            <i :class="facebook"></i>
+            <i :class="twitter"></i>
+            <i :class="instagram"></i>
+            </div>
           </div>
+        </nav>
+        <!-- FINE navbar sopra -->
 
-          <div class="navright">
-          <ul v-for="item in info">
-            <li>{{item.message}}</li>
-          </ul>
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-instagram"></i>
-          </div>
+        <nav id="bottomnavbar"
+            :style="{ backgroundImage: 'url(' + navimage +')'}">
+          <!-- <img :src="'img/' + navimage" alt=""> -->
 
         </nav>
+
+
       </header>
 
       <main>
