@@ -166,7 +166,7 @@ body {
 
 /* Human Capital Core Business Performance */
 .containerhcp {
-  height: 600px;
+  height: 550px;
   background-color: #e4eae6;
   display: flex;
   justify-content: center;
@@ -706,7 +706,27 @@ body {
   .containertrusted1 {
     min-height: 250px;
     background-color: #e4eae6;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    text-align: center;
+  }
+
+  #trustedtitle {
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  #trustedfeedback {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  #trustedparagraph {
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 550px;
+    padding-right: 550px;
   }
 
   .containertrusted2 {
@@ -721,7 +741,7 @@ body {
     margin-top: 10px;
   }
 
-  #humancapital {
+  #woocommerce {
     height: 40%;
     width: 15%;
     border-radius: 10px;
@@ -760,7 +780,7 @@ body {
     color: #097a7c;
   }
 
-  #corebusiness {
+  #wordpress {
     height: 40%;
     width: 15%;
     border-radius: 10px;
@@ -770,7 +790,7 @@ body {
     padding: 30px 30px;
   }
 
-  #performance {
+  #pingdom {
     height: 40%;
     width: 15%;
     border-radius: 10px;
@@ -793,7 +813,7 @@ body {
   .bottombox {
     height: 100%;
     width: 60%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -803,7 +823,7 @@ body {
     min-height: 70%;
     width: 60%;
     float: left;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     font-size: 40px;
   }
 
@@ -873,13 +893,25 @@ body {
     margin: 5px;
   }
 
-  #bottominput {
+  /* #bottominput {
     height: 150px;
     width: 91.4%;
     border: 0px;
     float: left;
     color: #badbde;
     background-color: #202427;
+    margin: 5px;
+  } */
+
+  #bottominput {
+    height: 150px;
+    width: 91.4%;
+    padding: 12px 20px;
+    border: 0px;
+    color: #badbde;
+    background-color: #202427;
+    font-size: 16px;
+    resize: none;
     margin: 5px;
   }
 
@@ -918,7 +950,20 @@ body {
 
   .contactinfo div {
     color: #038483;
+    margin-bottom: 20px;
   }
+
+  .contactinfo span {
+    margin-left: 10px;
+  }
+
+  /* #hcpicon2 {
+    background-color: #E0FFFF;
+    border-radius: 50%;
+    border: 1px solid #E0FFFF;
+    padding: 15px;
+    color: #097a7c;
+  } */
 
   .bottomboxrightblock div {
     margin-top: 15px;

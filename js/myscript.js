@@ -8,7 +8,7 @@ var app = new Vue({
       {instagram: 'fab fa-instagram'},
       {phone: 'fas fa-phone-alt'},
       {envelope: 'fas fa-envelope'},
-      {position: 'fas fa-map-marker-alt'}
+      {position: 'fas fa-map-marked'}
     ],
     hours: 'Open Hours: Mon - Sat - 9:00 - 18:00',
     info: [
