@@ -26,6 +26,10 @@ var app = new Vue({
       {text: 'TESTIMONIALS'}
     ],
     touch: 'GET IN TOUCH',
+    humanresources: 'HUMAN RESOURCES',
+    moreproductivity: 'Get More Productivity',
+    readmore: 'READ MORE',
+    planning: 'Planning, recruitment and selection process and performance evaluation of employees.',
     user: 'fas fa-user',
     // paragraphleft: [
     //   {par: 'SEND A MESSAGE'},

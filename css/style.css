@@ -36,9 +36,9 @@ body {
 
 .navleft {
   height: 100%;
-  width: 50%;
+  width: 40%;
   float: left;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -47,13 +47,17 @@ body {
 
 .navright {
   height: 100%;
-  width: 50%;
+  width: 60%;
   float: left;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: #e4eae6;
+}
+
+.navright i {
+  margin-left: 15px;
 }
 /* FINE navbar sopra */
 
@@ -67,7 +71,7 @@ body {
 #bottomnavbar {
   height: 100%;
   width: 60%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 #bottomnavbar ul {
@@ -83,7 +87,7 @@ body {
 .bottomnavleft {
   height: 10%;
   width: 20%;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   float: left;
   display: flex;
   justify-content: center;
@@ -94,7 +98,7 @@ body {
 .bottomnavright {
   height: 10%;
   width: 80%;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   float: left;
   display: flex;
   justify-content: space-around;
@@ -106,7 +110,7 @@ body {
 .bottomnavbarblock {
   height: 90%;
   width: 50%;
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -136,7 +140,7 @@ body {
 
 .subbottomnavbarblock {
   height: 60%;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .subbottomnavbarblock p {
@@ -255,6 +259,7 @@ body {
   justify-content: flex-end;
   align-items: flex-start;
   flex-direction: column;
+
 }
 
 .containercompanyleft-blockup p {
@@ -262,9 +267,19 @@ body {
   display: flex;
 }
 
-#companytitle {
+#companynetwork {
   font-size: 12px;
   font-weight: bold;
+  color: #038483;
+}
+
+#companytitle {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#companyparagraph {
+  color: #badbde;
 }
 
 .containercompanyleft-blockdown {
@@ -275,22 +290,27 @@ body {
 }
 
 .subcontainercompanyleft-blockdown {
-  height: 60%;
+  height: 40%;
   width: 33.33333333%;
   background-color: brown;
   padding: 40px 40px;
   float: left;
+  text-align: left;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 
-.subcontainercompanyleft-blockdown p {
-  height: 60%;
-  width: 33.33333333%;
-  background-color: brown;
-  float: left;
+#zero {
+  font-size: 40px;
+  color: #038483;
+  font-weight: bold;
+}
+
+#subtitle {
+  font-size: 23px;
+  text-align: left;
 }
 
 .subcontainercompanyleft-blockdowncenter {
@@ -308,14 +328,36 @@ body {
 }
 
 .subcontainercompanyleft-buttonleft {
-  height: 10%;
   float: left;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-left: 30px;
-  background-color: white;
-  border: 2px solid black;
+}
+
+#getintouchbutton {
+  padding: 15px;
+  background-color: #1a948f;
+  border: 2px solid #1a948f;
+  border-radius: 10px;
+  margin-top: 60px;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+#readmorebutton {
+  padding: 15px;
+  background-color: transparent;
+  border: 2px solid #1a948f;
+  border-radius: 10px;
+  margin-top: 60px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #1a948f;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 .subcontainercompanyleft-buttonright {
@@ -327,6 +369,7 @@ body {
   margin-left: 30px;
   background-color: white;
   border: 2px solid black;
+  margin-top: 30px;
 }
 
 .containercompanyright {
@@ -341,7 +384,7 @@ body {
 
 /* Actions & Projects */
 .actionscontainer {
-  height: 300px;
+  height: 250px;
   background-color: #121117;
 }
 
@@ -354,9 +397,23 @@ body {
   align-items: center;
 }
 
+#domore {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #51bdbc;
+}
+
+#actions {
+  font-size: 55px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: white;
+}
+
 .actionnav {
   height: 30%;
-  background-color: white;
+  background-color: darkblue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -370,6 +427,9 @@ body {
 .actionnav li {
   display: inline;
   margin-right: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .actionboxcontainer {
@@ -422,6 +482,7 @@ body {
   padding-bottom: 40px;
   color: white;
   font-size: 25px;
+  font-weight: bold;
 }
 
 .box3 {
@@ -442,6 +503,7 @@ body {
   padding-bottom: 40px;
   color: white;
   font-size: 25px;
+  font-weight: bold;
 }
 
 .box4 {
@@ -462,6 +524,7 @@ body {
   padding-bottom: 40px;
   color: white;
   font-size: 25px;
+  font-weight: bold;
 }
 
 .box5 {
@@ -482,6 +545,7 @@ body {
   padding-bottom: 40px;
   color: white;
   font-size: 25px;
+  font-weight: bold;
 }
 
 .box6 {
@@ -502,6 +566,7 @@ body {
   padding-bottom: 40px;
   color: white;
   font-size: 25px;
+  font-weight: bold;
 }
   /* FINE Actions & Projects */
 
@@ -525,9 +590,24 @@ body {
     width: 30%;
   }
 
-  .processblockup p {
-    margin-top: 12px;
+  #howitworks {
+    font-weight: bold;
+    color: #038483;
   }
+
+  #processmanagement {
+    margin-top: 12px;
+    font-size: 55px;
+  }
+
+  #processparagraph {
+    margin-top: 12px;
+    font-size: 16px;
+  }
+
+  /* .processblockup p {
+    margin-top: 12px;
+  } */
 
   .processsubcontainer {
     height: 60%;

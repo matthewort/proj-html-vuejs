@@ -21,9 +21,17 @@
             </div>
             <!-- navbar destra -->
             <div class="navright">
-            <ul v-for="item in info">
+              <ul>
+                <i :class="icons[4].phone"></i>
+                <li>{{info[0].message}}</li>
+                <i :class="icons[5].envelope"></i>
+                <li>{{info[1].message}}</li>
+                <i :class="icons[6].position"></i>
+                <li>{{info[2].message}}</li>
+              </ul>
+            <!-- <ul v-for="item in info">
               <li>{{item.message}}</li>
-            </ul>
+            </ul> -->
             <i :class="icons[1].facebook"></i>
             <i :class="icons[2].twitter"></i>
             <i :class="icons[3].instagram"></i>
@@ -55,12 +63,12 @@
             <!-- blocco sotto -->
             <div class="bottomnavbarblock">
               <div class="subbottomnavbarblock">
-                <p id="hr">HUMAN RESOURCES</p>
-                <p id="productivity">Get More Productivity</p>
-                <p id="planning">Planning, recruitment and selection process and performance evaluation of employees.</p>
+                <p id="hr">{{humanresources}}</p>
+                <p id="productivity">{{moreproductivity}}</p>
+                <p id="planning">{{planning}}</p>
                 <br>
-                <button id="buttontouch">GET IN TOUCH</button>
-                <button id="buttonread">READ MORE</button>
+                <button id="buttontouch">{{touch}}</button>
+                <button id="buttonread">{{readmore}}</button>
               </div>
             </div>
           </div>
@@ -95,32 +103,33 @@
         <div class="containercompany">
           <div class="containercompanyleft">
             <div class="containercompanyleft-blockup">
-              <p id="companytitle">ABOUT THE NETWORK</p>
-              <p>The Company</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p id="companynetwork">ABOUT THE NETWORK</p>
+              <p id="companytitle">The Company</p>
+              <p id="companyparagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <div class="containercompanyleft-blockdown">
               <div class="subcontainercompanyleft-blockdown">
-                <p>0</p>
-                <p>Employees</p>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <div id="zero">0</div>
+                <div id="subtitle">Employees</div>
+                <div>Lorem ipsum dolor sit amet.</div>
               </div>
               <div class="subcontainercompanyleft-blockdown">
-                <p>0</p>
-                <p>Partners</p>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <div id="zero">0</div>
+                <div id="subtitle">Partners</div>
+                <div>Lorem ipsum dolor sit amet.</div>
               </div>
               <div class="subcontainercompanyleft-blockdown">
-                <p>0</p>
-                <p>Customers</p>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <div id="zero">0</div>
+                <div id="subtitle">Customers</div>
+                <div>Lorem ipsum dolor sit amet.</div>
               </div>
               <div class="subcontainercompanyleft-buttonleft">
-                <div>GET IN TOUCH</div>
+                <button id="getintouchbutton">GET IN TOUCH</button>
+                <button id="readmorebutton">READ MORE</button>
               </div>
-              <div class="subcontainercompanyleft-buttonright">
+              <!-- <div class="subcontainercompanyleft-buttonright">
                 <div>READ MORE</div>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="containercompanyright">
@@ -133,8 +142,8 @@
         <!-- Actions & Projects -->
         <div class="actionscontainer">
           <div class="actionsup">
-            <p>WE DO MORE FOR EVERYONE</p>
-            <p>Actions & Projects</p>
+            <p id="domore">WE DO MORE FOR EVERYONE</p>
+            <p id="actions">Actions & Projects</p>
           </div>
 
           <div class="actionnav">
@@ -152,11 +161,11 @@
 
         <div class="actionboxcontainer">
           <div class="box1">Academic professional program in social media</div>
-          <div class="box2">Academic professional program in social media</div>
-          <div class="box3">Academic professional program in social media</div>
-          <div class="box4">Academic professional program in social media</div>
-          <div class="box5">Academic professional program in social media</div>
-          <div class="box6">Academic professional program in social media</div>
+          <div class="box2">President's speech at the annual meeting</div>
+          <div class="box3">International business trip in Shangai</div>
+          <div class="box4">Technology workshop with education theme</div>
+          <div class="box5">Donation of clothes and food to the partner NGO</div>
+          <div class="box6">Confraternization of the procurement team</div>
         </div>
         <!-- FINE Actions & Projects -->
 
@@ -164,9 +173,9 @@
         <div class="processcontainer">
           <div class="processblockupcontainer">
             <div class="processblockup">
-            <p>HOW IT WORKS IN PRACTICE</p>
-            <p>Process Management</p>
-            <p>We work with innovative methodologies to ensure that the entire reformatting process is done from start to finish as planned.</p>
+            <p id="howitworks">HOW IT WORKS IN PRACTICE</p>
+            <p id="processmanagement">Process Management</p>
+            <p id="processparagraph">We work with innovative methodologies to ensure that the entire reformatting process is done from start to finish as planned.</p>
             </div>
           </div>
 
