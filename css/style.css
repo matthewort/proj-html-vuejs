@@ -125,6 +125,7 @@ body {
   cursor: pointer;
   color: white;
   font-weight: bold;
+  margin-right: 10px;
 }
 
 #buttonread{
@@ -165,7 +166,7 @@ body {
 
 /* Human Capital Core Business Performance */
 .containerhcp {
-  height: 450px;
+  height: 600px;
   background-color: #e4eae6;
   display: flex;
   justify-content: center;
@@ -239,7 +240,7 @@ body {
 /* The Company */
 .containercompany {
   height: 600px;
-  background-color: brown;
+  /* background-color: brown; */
 }
 
 .containercompanyleft {
@@ -253,7 +254,7 @@ body {
   height: 40%;
   width: 60%;
   padding: 40px 40px;
-  background-color: orange;
+  /* background-color: orange; */
   float: right;
   display: flex;
   justify-content: flex-end;
@@ -268,7 +269,7 @@ body {
 }
 
 #companynetwork {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   color: #038483;
 }
@@ -279,20 +280,21 @@ body {
 }
 
 #companyparagraph {
-  color: #badbde;
+  margin-bottom: 5px;
+  color: black;
 }
 
 .containercompanyleft-blockdown {
   height: 60%;
   width: 60%;
-  background-color: yellow;
+  /* background-color: yellow; */
   float: right;
 }
 
 .subcontainercompanyleft-blockdown {
   height: 40%;
   width: 33.33333333%;
-  background-color: brown;
+  /* background-color: brown; */
   padding: 40px 40px;
   float: left;
   text-align: left;
@@ -306,11 +308,14 @@ body {
   font-size: 40px;
   color: #038483;
   font-weight: bold;
+  margin-bottom: 15px;
 }
 
 #subtitle {
   font-size: 23px;
   text-align: left;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .subcontainercompanyleft-blockdowncenter {
@@ -390,7 +395,7 @@ body {
 
 .actionsup {
   height: 70%;
-  background-color: lightblue;
+  background-color: #121117;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
@@ -413,7 +418,7 @@ body {
 
 .actionnav {
   height: 30%;
-  background-color: darkblue;
+  background-color: #121117;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -434,7 +439,7 @@ body {
 
 .actionboxcontainer {
   height: 900px;
-  background-color: brown;
+  background-color: #121117;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -572,13 +577,13 @@ body {
 
   /* Process Management */
   .processcontainer {
-    height: 700px;
+    height: 650px;
     background-image: url("../img/process_img1.jpg");
   }
 
   .processblockupcontainer {
     height: 40%;
-    background-color: orange;
+    background-color: white;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -598,6 +603,8 @@ body {
   #processmanagement {
     margin-top: 12px;
     font-size: 55px;
+    font-weight: bold;
+    color: #121117;
   }
 
   #processparagraph {
@@ -611,22 +618,168 @@ body {
 
   .processsubcontainer {
     height: 60%;
-    background-color: brown;
-    opacity: 0.5;
+    /* background-color: brown;
+    opacity: 0.5; */
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
-  .processblockdown {
+  .processblockdown1 {
     height: 50%;
     width: 30%;
     /* margin-right: 10px;
     margin-left: 10px; */
-    background-color: darkblue;
-    border: 2px solid black;
+    /* background-color: darkblue; */
+    /* border: 2px solid black; */
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+  }
+
+  #processtitle {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #processpar {
+    margin-top: 10px;
+  }
+
+  .processblockdown2 {
+    height: 50%;
+    width: 30%;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    /* background-color: darkblue; */
+    /* border: 2px solid black; */
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+  }
+
+  .processblockdown3 {
+    height: 50%;
+    width: 30%;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    /* background-color: darkblue; */
+    /* border: 2px solid black; */
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+  }
+
+  .processblockdown4 {
+    height: 50%;
+    width: 30%;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    /* background-color: darkblue; */
+    /* border: 2px solid black; */
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+  }
+
+  .processblockdown5 {
+    height: 50%;
+    width: 30%;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    /* background-color: darkblue; */
+    /* border: 2px solid black; */
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
   }
   /* FINE Process Management */
+
+  /* Trusted Feedback */
+  .containertrusted1 {
+    min-height: 250px;
+    background-color: #e4eae6;
+    border: 2px solid black;
+  }
+
+  .containertrusted2 {
+    min-height: 350px;
+    background-color: #e4eae6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containertrusted p {
+    margin-top: 10px;
+  }
+
+  #humancapital {
+    height: 40%;
+    width: 15%;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 30px;
+    align-items: center;
+    padding: 30px 30px;
+  }
+
+  #hcpicon1 {
+    background-color: #E0FFFF;
+    border-radius: 50%;
+    border: 1px solid #E0FFFF;
+    padding: 15px;
+    color: #097a7c;
+  }
+
+  #hcptitle {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #hcpicon2 {
+    background-color: #E0FFFF;
+    border-radius: 50%;
+    border: 1px solid #E0FFFF;
+    padding: 15px;
+    color: #097a7c;
+  }
+
+  #hcpicon3 {
+    background-color: #E0FFFF;
+    border-radius: 50%;
+    border: 1px solid #E0FFFF;
+    padding: 15px;
+    color: #097a7c;
+  }
+
+  #corebusiness {
+    height: 40%;
+    width: 15%;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 30px;
+    align-items: center;
+    padding: 30px 30px;
+  }
+
+  #performance {
+    height: 40%;
+    width: 15%;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 30px;
+    align-items: center;
+    padding: 30px 30px;
+  }
+  /* FINE Trusted Feedback */
 
   /* FOOTER */
   .bottomcontainer {
