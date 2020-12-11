@@ -67,19 +67,60 @@ body {
   border: 2px solid black;
 }
 
+#bottomnavbar ul {
+  list-style: none;
+  display: inline;
+}
+
+#bottomnavbar li {
+  list-style: none;
+  display: inline;
+}
+/* sottonavbar sinistra */
 .bottomnavleft {
   height: 10%;
   width: 20%;
   border: 2px solid yellow;
   float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+/* sottonavbar destra */
 .bottomnavright {
   height: 10%;
   width: 80%;
   border: 2px solid yellow;
   float: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+/* blocco sotto */
+.bottomnavbarblock {
+  height: 90%;
+  width: 50%;
+  border: 2px solid orange;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottomnavbarblock span {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.subbottomnavbarblock {
+  height: 60%;
+  border: 2px solid blue;
+}
+
+.subbottomnavbarblock p {
+  margin-top: 10px;
+}
+
 
 /* Human Capital Core Business Performance */
 .containerhcp {
@@ -401,18 +442,28 @@ body {
 }
   /* FINE Actions & Projects */
 
+  /* Process Management */
   .processcontainer {
     height: 700px;
     background-image: url("../img/process_img1.jpg");
   }
 
-  .processblockup {
+  .processblockupcontainer {
     height: 40%;
     background-color: orange;
     text-align: center;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: flex-end;
+    padding-bottom: 20px;
+  }
+
+  .processblockup {
+    width: 30%;
+  }
+
+  .processblockup p {
+    margin-top: 12px;
   }
 
   .processsubcontainer {
@@ -431,5 +482,186 @@ body {
     margin-left: 10px; */
     background-color: darkblue;
     border: 2px solid black;
-
   }
+  /* FINE Process Management */
+
+  /* FOOTER */
+  .bottomcontainer {
+    height: 850px;
+    background-color: #121117;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottombox {
+    height: 100%;
+    width: 60%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottomboxleft {
+    min-height: 70%;
+    width: 60%;
+    float: left;
+    border: 2px solid orange;
+    font-size: 40px;
+  }
+
+  #send {
+    font-size: 15px;
+    font-weight: bold;
+    color: #51bdbc;
+  }
+
+  #getintouch {
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+  }
+
+  #respond {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #babdbe;
+    margin-bottom: 50px;
+  }
+
+  .inputbox {
+    min-height: 250px;
+    min-width: 500px;
+    /* border: 2px solid lightblue; */
+  }
+
+  .subinputbox1 {
+    padding: 15px;
+    width: 45%;
+    float: left;
+    border: 0px;
+    color: #badbde;
+    background-color: #202427;
+    margin: 5px;
+  }
+
+  .subinputbox2 {
+    padding: 15px;
+    width: 45%;
+    border: 0px;
+    float: left;
+    color: #badbde;
+    background-color: #202427;
+    margin: 5px;
+  }
+
+  .subinputbox3 {
+    padding: 15px;
+    width: 45%;
+    border: 0px;
+    float: left;
+    color: #badbde;
+    background-color: #202427;
+    margin: 5px;
+  }
+
+  .subinputbox4 {
+    padding: 15px;
+    width: 45%;
+    border: 0px;
+    float: left;
+    color: #badbde;
+    background-color: #202427;
+    margin: 5px;
+  }
+
+  #bottominput {
+    height: 150px;
+    width: 91.4%;
+    border: 0px;
+    float: left;
+    color: #badbde;
+    background-color: #202427;
+    margin: 5px;
+  }
+
+  #inputbutton {
+    width: 80px;
+    background: #1a948f;
+    border: 2px solid #1a948f;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+  }
+
+  .bottomboxright {
+    height: 100%;
+    width: 40%;
+    float: left;
+    /* border: 2px solid lightblue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .bottomboxrightblock {
+    height: 70%;
+    width: 80%;
+  }
+
+  .example {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .contactinfo div {
+    color: #038483;
+  }
+
+  .bottomboxrightblock div {
+    margin-top: 15px;
+  }
+
+  .bottomboxrightblock button {
+    margin-top: 15px;
+  }
+
+  .bottomboxrightblock li {
+    margin-top: 15px;
+    color: #babdbe;
+  }
+
+  .bottomboxrightblock i {
+    font-size: 20px;
+    border: 2px solid lightblue;
+    border-radius: 100%;
+    background-color: lightblue;
+    padding: 10px;
+  }
+
+  .bottombox ul {
+    list-style: none;
+    display: inline;
+  }
+
+  .bottombox li {
+    list-style: none;
+  }
+
+  .mapsquare {
+    width: 120px;
+    background: #121117;
+    border: 2px solid #1a948f;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+  }
+  /* FINE FOOTER */

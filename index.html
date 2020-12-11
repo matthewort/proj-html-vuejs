@@ -13,19 +13,20 @@
         <!-- navbar sopra -->
         <nav id="uppernavbar">
           <div id="navbar">
+            <!-- navbar sinistra -->
             <div class="navleft">
             <ul>
-              <li><i :class="clock"></i>{{hours}}</li>
+              <li><i :class="icons[0].clock"></i>{{hours}}</li>
             </ul>
             </div>
-
+            <!-- navbar destra -->
             <div class="navright">
             <ul v-for="item in info">
               <li>{{item.message}}</li>
             </ul>
-            <i :class="facebook"></i>
-            <i :class="twitter"></i>
-            <i :class="instagram"></i>
+            <i :class="icons[1].facebook"></i>
+            <i :class="icons[2].twitter"></i>
+            <i :class="icons[3].instagram"></i>
             </div>
           </div>
         </nav>
@@ -33,18 +34,38 @@
 
         <!-- navbar sotto -->
         <nav id="bottomnavbarcontainer" :style="{ backgroundImage: 'url(' + navimage +')'}">
+          <!-- container sottonavbar -->
           <div id="bottomnavbar">
+            <!-- sottonavbar sinistra -->
             <div class="bottomnavleft">
-
+              <h1>{{nexgen}}</h1>
             </div>
+            <!-- sottonavbar destra -->
             <div class="bottomnavright">
-
+              <ul v-for="item in navtext">
+                <li>{{item.text}}</li>
+              </ul>
+              <ul>
+                <li><i :class="user"></i></li>
+              </ul>
+              <ul>
+                <li>{{touch}}</li>
+              </ul>
             </div>
-
+            <!-- blocco sotto -->
+            <div class="bottomnavbarblock">
+              <div class="subbottomnavbarblock">
+                <p>HUMAN RESOURCES</p>
+                <p>Get More Productivity</p>
+                <p>Planning, recruitment and selection process and performance evaluation of employees.</p>
+                <br>
+                <span>GET IN TOUCH</span>
+                <span>READ MORE</span>
+              </div>
+            </div>
           </div>
-
-
         </nav>
+        <!-- FINE navbar sotto -->
 
 
       </header>
@@ -141,11 +162,14 @@
 
         <!-- Process Management -->
         <div class="processcontainer">
-          <div class="processblockup">
+          <div class="processblockupcontainer">
+            <div class="processblockup">
             <p>HOW IT WORKS IN PRACTICE</p>
             <p>Process Management</p>
             <p>We work with innovative methodologies to ensure that the entire reformatting process is done from start to finish as planned.</p>
+            </div>
           </div>
+
           <div class="processsubcontainer">
             <div class="processblockdown">
 
@@ -162,18 +186,64 @@
             <div class="processblockdown">
 
             </div>
-
           </div>
-
-
         </div>
+        <!-- FINE Process Management -->
 
-
-
+        <!-- Human Capital Core Business Performance -->
+        <div class="containerhcp">
+          <div id="humancapital">
+              <p id=hcpicon class="fas fa-user-friends"></p>
+              <p>Human Capital</p>
+              <p>Humanizing business: Harness the power of technology to improve the way people work.</p>
+          </div>
+          <div id="corebusiness">
+              <p class="fas fa-chart-pie"></p>
+              <p>Core Business</p>
+              <p>It takes innovative approaches to transform, modernize and run existing platforms.</p>
+          </div>
+          <div id="performance">
+              <p class="fas fa-tachometer-alt"></p>
+              <p>Performance</p>
+              <p>Achieving maximum impact and value from investments in finance and supply chain.</p>
+          </div>
+        </div>
+        <!-- FINE Human Capital Core Business Performance -->
       </main>
 
       <footer>
-
+        <div class="bottomcontainer">
+          <div class="bottombox">
+            <div class="bottomboxleft">
+              <!-- <ul v-for="item in paragraphleft">
+                <li>{{item.par}}</li>
+              </ul> -->
+              <div id="send">{{send}}</div>
+              <div id="getintouch">{{getintouch}}</div>
+              <div id="respond">{{respond}}</div>
+              <div class="inputbox">
+              <input class="subinputbox1" placeholder="Name"> <input class="subinputbox2" placeholder="Email">
+              <input class="subinputbox3" placeholder="Phone"> <input class="subinputbox4" placeholder="More Info">
+              <input id="bottominput" placeholder="Message">
+              </div>
+              <button id="inputbutton" type="button" name="button">{{send2}}</button>
+            </div>
+            <div class="bottomboxright">
+              <div class="bottomboxrightblock">
+                <div class="example">{{example}}</div>
+                <ul v-for="item in paragraphright">
+                <li>{{item.par}}</li>
+                </ul>
+                <div class="contactinfo">
+                  <div><i :class="icons[4].phone"></i><span> {{info[0].message}}</span></div>
+                  <div><i :class="icons[5].envelope"></i><span> {{info[1].message}}</span></div>
+                  <div><i :class="icons[6].position"></i><span> {{info[2].message}}</span></div>
+                </div>
+                <button class="mapsquare">{{map}}</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </footer>
     </div>
 
