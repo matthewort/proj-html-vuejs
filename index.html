@@ -16,7 +16,7 @@
             <!-- navbar sinistra -->
             <div class="navleft">
             <ul>
-              <li><i :class="icons[0].clock"></i>{{hours}}</li>
+              <li><i :class="icons[0].clock"></i> {{hours}}</li>
             </ul>
             </div>
             <!-- navbar destra -->
@@ -55,12 +55,12 @@
             <!-- blocco sotto -->
             <div class="bottomnavbarblock">
               <div class="subbottomnavbarblock">
-                <p>HUMAN RESOURCES</p>
-                <p>Get More Productivity</p>
-                <p>Planning, recruitment and selection process and performance evaluation of employees.</p>
+                <p id="hr">HUMAN RESOURCES</p>
+                <p id="productivity">Get More Productivity</p>
+                <p id="planning">Planning, recruitment and selection process and performance evaluation of employees.</p>
                 <br>
-                <span>GET IN TOUCH</span>
-                <span>READ MORE</span>
+                <button id="buttontouch">GET IN TOUCH</button>
+                <button id="buttonread">READ MORE</button>
               </div>
             </div>
           </div>
@@ -74,18 +74,18 @@
         <!-- Human Capital Core Business Performance -->
         <div class="containerhcp">
           <div id="humancapital">
-              <p id=hcpicon class="fas fa-user-friends"></p>
-              <p>Human Capital</p>
+              <p id="hcpicon1" class="fas fa-user-friends"></p>
+              <p id="hcptitle">Human Capital</p>
               <p>Humanizing business: Harness the power of technology to improve the way people work.</p>
           </div>
           <div id="corebusiness">
-              <p class="fas fa-chart-pie"></p>
-              <p>Core Business</p>
+              <p id="hcpicon2" class="fas fa-chart-pie"></p>
+              <p id="hcptitle">Core Business</p>
               <p>It takes innovative approaches to transform, modernize and run existing platforms.</p>
           </div>
           <div id="performance">
-              <p class="fas fa-tachometer-alt"></p>
-              <p>Performance</p>
+              <p id="hcpicon3" class="fas fa-tachometer-alt"></p>
+              <p id="hcptitle">Performance</p>
               <p>Achieving maximum impact and value from investments in finance and supply chain.</p>
           </div>
         </div>
@@ -95,7 +95,7 @@
         <div class="containercompany">
           <div class="containercompanyleft">
             <div class="containercompanyleft-blockup">
-              <p>ABOUT THE NETWORK</p>
+              <p id="companytitle">ABOUT THE NETWORK</p>
               <p>The Company</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>

@@ -16,6 +16,7 @@ body {
   height: 65px;
   display: flex;
   justify-content: center;
+  background-color: #24343c;
 }
 
 #navbar {
@@ -41,6 +42,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  color: #e4eae6;
 }
 
 .navright {
@@ -51,6 +53,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: #e4eae6;
 }
 /* FINE navbar sopra */
 
@@ -85,6 +88,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 /* sottonavbar destra */
 .bottomnavright {
@@ -95,6 +99,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: white;
+  font-weight: bold;
 }
 /* blocco sotto */
 .bottomnavbarblock {
@@ -106,10 +112,26 @@ body {
   align-items: center;
 }
 
-.bottomnavbarblock span {
-  padding: 10px;
-  border: 2px solid black;
+#buttontouch {
+  padding: 15px;
+  background-color: #1a948f;
+  border: 2px solid #1a948f;
   border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+#buttonread{
+  padding: 15px;
+  background-color: transparent;
+  border: 2px solid #1a948f;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
 }
 
 .subbottomnavbarblock {
@@ -121,6 +143,21 @@ body {
   margin-top: 10px;
 }
 
+#hr {
+  font-weight: bold;
+  color: #51bdbc;
+}
+
+#productivity {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+#planning {
+  font-size: 25px;
+  color: #e4eae6;
+}
 
 /* Human Capital Core Business Performance */
 .containerhcp {
@@ -131,6 +168,10 @@ body {
   align-items: center;
 }
 
+.containerhcp p {
+  margin-top: 10px;
+}
+
 #humancapital {
   height: 50%;
   width: 15%;
@@ -138,11 +179,36 @@ body {
   background-color: white;
   margin-right: 30px;
   align-items: center;
-  padding: 40px 40px;
+  padding: 30px 30px;
 }
 
-#humancapital p {
-  padding: 5px;
+#hcpicon1 {
+  background-color: #E0FFFF;
+  border-radius: 50%;
+  border: 1px solid #E0FFFF;
+  padding: 15px;
+  color: #097a7c;
+}
+
+#hcptitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#hcpicon2 {
+  background-color: #E0FFFF;
+  border-radius: 50%;
+  border: 1px solid #E0FFFF;
+  padding: 15px;
+  color: #097a7c;
+}
+
+#hcpicon3 {
+  background-color: #E0FFFF;
+  border-radius: 50%;
+  border: 1px solid #E0FFFF;
+  padding: 15px;
+  color: #097a7c;
 }
 
 #corebusiness {
@@ -152,11 +218,7 @@ body {
   background-color: white;
   margin-right: 30px;
   align-items: center;
-  padding: 40px 40px;
-}
-
-#corebusiness p {
-  padding: 5px;
+  padding: 30px 30px;
 }
 
 #performance {
@@ -166,11 +228,7 @@ body {
   background-color: white;
   margin-right: 30px;
   align-items: center;
-  padding: 40px 40px;
-}
-
-#performance p {
-  padding: 5px;
+  padding: 30px 30px;
 }
 /* FINE Human Capital Core Business Performance */
 
@@ -202,6 +260,11 @@ body {
 .containercompanyleft-blockup p {
   margin-top: 10px;
   display: flex;
+}
+
+#companytitle {
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .containercompanyleft-blockdown {
