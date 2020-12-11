@@ -421,6 +421,11 @@ body {
   color: white;
 }
 
+#actions span {
+  border: 2px solid #097a7c;
+  background-color: #097a7c;
+}
+
 .actionnav {
   height: 30%;
   background-color: #121117;
@@ -612,6 +617,12 @@ body {
     color: #121117;
   }
 
+  #processmanagement span {
+    border: 2px solid #097a7c;
+    background-color: #097a7c;
+    color: white;
+  }
+
   #processparagraph {
     margin-top: 12px;
     font-size: 16px;
@@ -729,6 +740,12 @@ body {
     color: #202427;
   }
 
+  #trustedfeedback span {
+    border: 2px solid #097a7c;
+    background-color: #097a7c;
+    color: white;
+  }
+
   #trustedparagraph {
     margin-top: 20px;
     font-size: 18px;
@@ -819,7 +836,7 @@ body {
     height: 20px;
   }
 
-  /* FINE Trusted Feedback */
+  /* FINE Trusted  */
 
   /* FOOTER */
   .bottomcontainer {
