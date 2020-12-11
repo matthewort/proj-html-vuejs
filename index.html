@@ -57,7 +57,7 @@
                 <li><i :class="user"></i></li>
               </ul>
               <ul>
-                <li>{{touch}}</li>
+                <li id="getintouchbutton">{{touch}}</li>
               </ul>
             </div>
             <!-- blocco sotto -->
@@ -182,23 +182,23 @@
           <div class="processsubcontainer">
             <div class="processblockdown1">
               <p id="processtitle">Collection of Information</p>
-              <p id="processpar">Lorem ipsum dolor sit amet consectetur</p>
+              <p id="processpar">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="processblockdown2">
               <p id="processtitle">Strategic planning</p>
-              <p id="processpar">Lorem ipsum dolor sit amet consectetur</p>
+              <p id="processpar">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="processblockdown3">
               <p id="processtitle">Assignment of responsibilities</p>
-              <p id="processpar">Lorem ipsum dolor sit amet consectetur</p>
+              <p id="processpar">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="processblockdown4">
               <p id="processtitle">Formatting process</p>
-              <p id="processpar">Lorem ipsum dolor sit amet consectetur</p>
+              <p id="processpar">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="processblockdown5">
               <p id="processtitle">Continuity formalization</p>
-              <p id="processpar">Lorem ipsum dolor sit amet consectetur</p>
+              <p id="processpar">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
           </div>
         </div>
@@ -243,7 +243,10 @@
               <div class="inputbox">
               <input class="subinputbox1" placeholder="Name"> <input class="subinputbox2" placeholder="Email">
               <input class="subinputbox3" placeholder="Phone"> <input class="subinputbox4" placeholder="More Info">
-              <input id="bottominput" placeholder="Message">
+              <form class="" action="index.html" method="post">
+                <textarea id="bottomarea" placeholder="Message"></textarea>
+              </form>
+
               </div>
               <button id="inputbutton" type="button" name="button">{{send2}}</button>
             </div>

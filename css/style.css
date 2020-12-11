@@ -106,6 +106,11 @@ body {
   color: white;
   font-weight: bold;
 }
+
+.bottomnavright:hover li {
+  cursor: pointer;
+}
+
 /* blocco sotto */
 .bottomnavbarblock {
   height: 90%;
@@ -714,12 +719,14 @@ body {
     padding-top: 80px;
     font-weight: bold;
     font-size: 15px;
+    color: #1a948f;
   }
 
   #trustedfeedback {
     margin-top: 10px;
     font-weight: bold;
     font-size: 50px;
+    color: #202427;
   }
 
   #trustedparagraph {
@@ -749,6 +756,10 @@ body {
     margin-right: 30px;
     align-items: center;
     padding: 30px 30px;
+  }
+
+  #woocommerce img {
+    height: 20px;
   }
 
   #hcpicon1 {
@@ -790,6 +801,10 @@ body {
     padding: 30px 30px;
   }
 
+  #wordpress img {
+    height: 20px;
+  }
+
   #pingdom {
     height: 40%;
     width: 15%;
@@ -799,6 +814,11 @@ body {
     align-items: center;
     padding: 30px 30px;
   }
+
+  #pingdom img {
+    height: 20px;
+  }
+
   /* FINE Trusted Feedback */
 
   /* FOOTER */
@@ -903,18 +923,18 @@ body {
     margin: 5px;
   } */
 
-  #bottominput {
+  #bottomarea {
     height: 150px;
     width: 91.4%;
-    padding: 12px 20px;
+    padding: 15px;
     border: 0px;
     color: #badbde;
     background-color: #202427;
-    font-size: 16px;
     resize: none;
     margin: 5px;
+    font-family: arial;
+    font-size: 13px;
   }
-
   #inputbutton {
     width: 80px;
     background: #1a948f;
