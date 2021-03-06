@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <title>Progetto Vue</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
   </head>
   <body>
@@ -15,33 +20,36 @@
           <div id="navbar">
             <!-- navbar sinistra -->
             <div class="navleft">
-            <ul>
-              <li><i :class="icons[0].clock"></i> {{hours}}</li>
-            </ul>
+              <ul>
+                <li><i :class="icons.clock"></i> {{hours}}</li>
+              </ul>
             </div>
             <!-- navbar destra -->
             <div class="navright">
               <ul>
-                <i :class="icons[4].phone"></i>
-                <li>{{info[0].message}}</li>
-                <i :class="icons[5].envelope"></i>
-                <li>{{info[1].message}}</li>
-                <i :class="icons[6].position"></i>
-                <li>{{info[2].message}}</li>
+                <i :class="icons.phone"></i>
+                <li>{{info.number}}</li>
+                <i :class="icons.envelope"></i>
+                <li>{{info.mail}}</li>
+                <i :class="icons.position"></i>
+                <li>{{info.address}}</li>
               </ul>
-            <!-- <ul v-for="item in info">
+              <!-- <ul v-for="item in info">
               <li>{{item.message}}</li>
             </ul> -->
-            <i :class="icons[1].facebook"></i>
-            <i :class="icons[2].twitter"></i>
-            <i :class="icons[3].instagram"></i>
+              <i :class="icons.facebook"></i>
+              <i :class="icons.twitter"></i>
+              <i :class="icons.instagram"></i>
             </div>
           </div>
         </nav>
         <!-- FINE navbar sopra -->
 
         <!-- navbar sotto -->
-        <nav id="bottomnavbarcontainer" :style="{ backgroundImage: 'url(' + navimage +')'}">
+        <nav
+          id="bottomnavbarcontainer"
+          :style="{ backgroundImage: 'url(' + navimage +')'}"
+        >
           <!-- container sottonavbar -->
           <div id="bottomnavbar">
             <!-- sottonavbar sinistra -->
@@ -66,7 +74,7 @@
                 <p id="hr">{{humanresources}}</p>
                 <p id="productivity">{{moreproductivity}}</p>
                 <p id="planning">{{planning}}</p>
-                <br>
+                <br />
                 <button id="buttontouch">{{touch}}</button>
                 <button id="buttonread">{{readmore}}</button>
               </div>
@@ -74,27 +82,34 @@
           </div>
         </nav>
         <!-- FINE navbar sotto -->
-
-
       </header>
 
       <main>
         <!-- Human Capital Core Business Performance -->
         <div class="containerhcp">
           <div id="humancapital">
-              <p id="hcpicon1" class="fas fa-user-friends"></p>
-              <p id="hcptitle">Human Capital</p>
-              <p>Humanizing business: Harness the power of technology to improve the way people work.</p>
+            <p id="hcpicon1" class="fas fa-user-friends"></p>
+            <p id="hcptitle">Human Capital</p>
+            <p>
+              Humanizing business: Harness the power of technology to improve
+              the way people work.
+            </p>
           </div>
           <div id="corebusiness">
-              <p id="hcpicon2" class="fas fa-chart-pie"></p>
-              <p id="hcptitle">Core Business</p>
-              <p>It takes innovative approaches to transform, modernize and run existing platforms.</p>
+            <p id="hcpicon2" class="fas fa-chart-pie"></p>
+            <p id="hcptitle">Core Business</p>
+            <p>
+              It takes innovative approaches to transform, modernize and run
+              existing platforms.
+            </p>
           </div>
           <div id="performance">
-              <p id="hcpicon3" class="fas fa-tachometer-alt"></p>
-              <p id="hcptitle">Performance</p>
-              <p>Achieving maximum impact and value from investments in finance and supply chain.</p>
+            <p id="hcpicon3" class="fas fa-tachometer-alt"></p>
+            <p id="hcptitle">Performance</p>
+            <p>
+              Achieving maximum impact and value from investments in finance and
+              supply chain.
+            </p>
           </div>
         </div>
         <!-- FINE Human Capital Core Business Performance -->
@@ -105,7 +120,10 @@
             <div class="containercompanyleft-blockup">
               <p id="companynetwork">ABOUT THE NETWORK</p>
               <p id="companytitle">The Company</p>
-              <p id="companyparagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p id="companyparagraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
             </div>
             <div class="containercompanyleft-blockdown">
               <div class="subcontainercompanyleft-blockdown">
@@ -132,10 +150,7 @@
               </div> -->
             </div>
           </div>
-          <div class="containercompanyright">
-
-          </div>
-
+          <div class="containercompanyright"></div>
         </div>
         <!-- FINE The Company -->
 
@@ -164,7 +179,9 @@
           <div class="box2">President's speech at the annual meeting</div>
           <div class="box3">International business trip in Shangai</div>
           <div class="box4">Technology workshop with education theme</div>
-          <div class="box5">Donation of clothes and food to the partner NGO</div>
+          <div class="box5">
+            Donation of clothes and food to the partner NGO
+          </div>
           <div class="box6">Confraternization of the procurement team</div>
         </div>
         <!-- FINE Actions & Projects -->
@@ -173,9 +190,12 @@
         <div class="processcontainer">
           <div class="processblockupcontainer">
             <div class="processblockup">
-            <p id="howitworks">HOW IT WORKS IN PRACTICE</p>
-            <p id="processmanagement"><span>Process</span> Management</p>
-            <p id="processparagraph">We work with innovative methodologies to ensure that the entire reformatting process is done from start to finish as planned.</p>
+              <p id="howitworks">HOW IT WORKS IN PRACTICE</p>
+              <p id="processmanagement"><span>Process</span> Management</p>
+              <p id="processparagraph">
+                We work with innovative methodologies to ensure that the entire
+                reformatting process is done from start to finish as planned.
+              </p>
             </div>
           </div>
 
@@ -208,23 +228,36 @@
         <div class="containertrusted1">
           <p id="trustedtitle">CUSTOMER TESTIMONIALS</p>
           <p id="trustedfeedback">Trusted <span>Feedback</span></p>
-          <p id="trustedparagraph">We work intensively in seach of ideals that can add up in the lives of our customers. This is what moves us and we are grateful for the recognition.</p>
+          <p id="trustedparagraph">
+            We work intensively in seach of ideals that can add up in the lives
+            of our customers. This is what moves us and we are grateful for the
+            recognition.
+          </p>
         </div>
         <div class="containertrusted2">
           <div id="woocommerce">
-              <img src="img/logo-1.png" alt="">
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <img src="img/logo-1.png" alt="" />
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </div>
           <div id="wordpress">
-              <img src="img/logo-2.png" alt="">
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <img src="img/logo-2.png" alt="" />
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </div>
           <div id="pingdom">
-              <img src="img/logo-3.png" alt="">
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <img src="img/logo-3.png" alt="" />
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </div>
         </div>
         <!-- FINE Trusted Feedback -->
@@ -241,25 +274,37 @@
               <div id="getintouch">{{getintouch}}</div>
               <div id="respond">{{respond}}</div>
               <div class="inputbox">
-              <input class="subinputbox1" placeholder="Name"> <input class="subinputbox2" placeholder="Email">
-              <input class="subinputbox3" placeholder="Phone"> <input class="subinputbox4" placeholder="More Info">
-              <form class="" action="index.html" method="post">
-                <textarea id="bottomarea" placeholder="Message"></textarea>
-              </form>
-
+                <input class="subinputbox1" placeholder="Name" />
+                <input class="subinputbox2" placeholder="Email" />
+                <input class="subinputbox3" placeholder="Phone" />
+                <input class="subinputbox4" placeholder="More Info" />
+                <form class="" action="index.html" method="post">
+                  <textarea id="bottomarea" placeholder="Message"></textarea>
+                </form>
               </div>
-              <button id="inputbutton" type="button" name="button">{{send2}}</button>
+              <button id="inputbutton" type="button" name="button">
+                {{send2}}
+              </button>
             </div>
             <div class="bottomboxright">
               <div class="bottomboxrightblock">
                 <div class="example">{{example}}</div>
                 <ul v-for="item in paragraphright">
-                <li>{{item.par}}</li>
+                  <li>{{item.par}}</li>
                 </ul>
                 <div class="contactinfo">
-                  <div><i id="hcpicon2" :class="icons[4].phone"></i><span> {{info[0].message}}</span></div>
-                  <div><i id="hcpicon2" :class="icons[5].envelope"></i><span> {{info[1].message}}</span></div>
-                  <div><i id="hcpicon2" :class="icons[6].position"></i><span> {{info[2].message}}</span></div>
+                  <div>
+                    <i id="hcpicon2" :class="icons.phone"></i
+                    ><span> {{info.number}}</span>
+                  </div>
+                  <div>
+                    <i id="hcpicon2" :class="icons.envelope"></i
+                    ><span> {{info.mail}}</span>
+                  </div>
+                  <div>
+                    <i id="hcpicon2" :class="icons.position"></i
+                    ><span> {{info.address}}</span>
+                  </div>
                 </div>
                 <button class="mapsquare">{{map}}</button>
               </div>
